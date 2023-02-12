@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AYAN WEBDEV</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/style3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+  <!--Navigation-->
+  <div class="w3-bar w3-black">
+    <span class="branding w3-bar-item w3-mobile">Ac webdev</span>
+    <span class="w3-right w3-mobile">
+    <a href="./index.html" class="w3-bar-item w3-button w3-mobile w3-hover-red" >Home</a>
+    <a href="./abouts.html" class="w3-bar-item w3-button w3-mobile w3-hover-red" >About</a>
+    <a href="./services.html" class="w3-bar-item w3-button w3-mobile w3-hover-red" >Services</a>
+    <a href="./contacts.html" class="w3-bar-item w3-button w3-mobile w3-hover-red" >Contact</a>
+  </span>
+  </div>
+
+  <div class="w3-bar w3-show w3-blue-gray">
+    <div class="w3-row-padding">
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class=" w3-right w3-mobile">Login</button>
+ 
+    </div>
+  </div>
+  <!--Showcase-->
+  <section class="showcase">
+    <div class="w3-container w3-center">
+      <h1 class="w3-text-shadow-red w3-animate-opacity">Job Finder</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis voluptas sapiente et facere officia deleniti voluptatem est iure dolorem provident, eaque enim vitae, officiis, possimus omnis! Officiis nam quia excepturi!</p>
+      <button onclick="document.getElementById('start-modal').style.display='block'" class="w3-button w3-red w3-large">SignUp</button>
+    </div>
+  </section>
+
+  <!--section1-->
+  <section class="section w3-red w3-hover-opacity">
+    <div class="w3-container w3-center">
+      <i class="fa-solid fa-house"></i>
+      <h2>Welcome Home</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam odio nesciunt perferendis quis officiis quae. Rerum quos, eaque id deserunt esse voluptatibus maxime magnam in odit nulla excepturi doloremque!</p>
+
+    </div>
+  </section>
+<!--section2-->
+  <section class="section w3-light-gray w3-hover-opacity">
+    <div class="w3-container w3-center">
+      <i class="fa-solid fa-gear"></i>
+      <h2>Let's Begin</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam odio nesciunt perferendis quis officiis quae. Rerum quos, eaque id deserunt esse voluptatibus maxime magnam in odit nulla excepturi doloremque!</p>
+
+    </div>
+  </section>
+
+  <!--ABOUT SECTION-->
+  <section class="section">
+    <div class="w3-container">
+       <div class="w3-row-padding">
+          <div class="w3-col m5">
+              <img src="image/Comp.jpg" alt="about us" style="width:100%;height:auto">
+          </div>
+
+          <div class="w3-col m7 ">
+            <button onclick="acFunction('what')" class="w3-button w3-block w3-left-align w3-blue-gray">
+             <b> About Us</b></button>
+              <div id="what" class="w3-container w3-show">
+                <h3>We do it all</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta pariatur veritatis quae distinctio magnam? Error saepe dolorem laboriosam magnam doloribus consectetur fuga recusandae nostrum! Recusandae temporibus architecto, saepe quasi laborum rerum corporis quas, consectetur ea modi officia, necessitatibus voluptatem atque dolores sint sit quaerat laboriosam eveniet porro quae. Provident, dolores minima recusandae nemo cupiditate illum repudiandae reprehenderit, ad quae dicta quas officia optio quia, consequatur totam magni vitae neque eveniet nam fuga numquam animi dignissimos! Eligendi explicabo praesentium, corporis deserunt dolorum rem, magni accusantium quo facilis expedita odio non unde odit voluptatem incidunt obcaecati adipisci consectetur eos. Quia, cum quos.</p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi omnis cum alias facere doloribus expedita culpa illo quaerat? Doloribus, molestias distinctio ipsa sint vel quod repellendus commodi ut eligendi ad.
+            </div>
+
+        </div>
+
+       </div>
+    </div>
+  </section>
+
+  <!--SERVICE HEADING-->
+  <section class="section w3-red w3-hover-opacity">
+    <div class="w3-container w3-center">
+      <h1 class="w3-text-shadow">Our Services</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam odio nesciunt perferendis quis officiis quae. Rerum quos, eaque id deserunt esse voluptatibus maxime magnam in odit nulla excepturi doloremque!</p>
+    </div>
+  </section>
+  <!--SERVICES-->
+  <section class="section w3-light-gray">
+    <div class="w3-container w3-center">
+      <div class="w3-row">
+        <div class="w3-col m3">
+          <i class="fa-solid fa-comments w3-red w3-padding-small w3-round-xlarge" ></i>
+          <h3>Internet Marketing</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+        </div>
+
+        <div class="w3-col m3">
+          <i class="fa-solid fa-magnifying-glass w3-red w3-padding-small w3-round-xlarge" ></i>
+          <h3>SEO</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+
+        </div>       
+
+        <div class="w3-col m3">
+          <i class="fa-solid fa-cubes w3-red w3-padding-small w3-round-xlarge" ></i>
+          <h3>Software Development</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+
+        </div>
+
+        <div class="w3-col m3">
+          <i class="fa-solid fa-cloud w3-red w3-padding-small w3-round-xlarge" ></i>
+          <h3>Cloud Hosting</h3>
+          <p>Lorem ipsum dolor sit amet </p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--SERVICDE SECTION-->
+  <section class="section">
+    <div class="w3-container">
+       <div class="w3-row-padding">
+          <div class="w3-col m5">
+              <img src="image/man.png" alt="about us" style="width:100%;height:auto">
+          </div>
+
+          <div class="w3-col m7 ">
+            <button onclick="acFunction('what')" class="w3-button w3-block w3-left-align w3-blue-gray">
+             <b> Services</b></button>
+              
+              <div id="what" class="w3-container w3-show">
+                <h3>We provide all</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta pariatur veritatis quae distinctio magnam? Error saepe dolorem laboriosam magnam doloribus consectetur fuga recusandae nostrum! Recusandae temporibus architecto, saepe quasi laborum rerum corporis quas, consectetur ea modi officia, necessitatibus voluptatem atque dolores sint sit quaerat laboriosam eveniet porro quae. Provident, dolores minima recusandae nemo cupiditate illum repudiandae reprehenderit, ad quae dicta quas officia optio quia, consequatur totam magni vitae neque eveniet nam fuga numquam animi dignissimos! Eligendi explicabo praesentium, corporis deserunt dolorum rem, magni accusantium quo facilis expedita odio non unde odit voluptatem incidunt obcaecati adipisci consectetur eos. Quia, cum quos.</p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi omnis cum alias facere doloribus expedita culpa illo quaerat? Doloribus, molestias distinctio ipsa sint vel quod repellendus commodi ut eligendi ad.
+            </div>
+        </div>
+       </div>
+    </div>
+  </section>
+
+   <!--CONTACT HEADING-->
+   <section id="contact" class="section w3-dark-gray w3-hover-opacity">
+    <div class="w3-container w3-center">
+      <h1 class="w3-text-shadow">Get In Touch</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam veniam odio nesciunt perferendis quis officiis quae. Rerum quos, eaque id deserunt esse voluptatibus maxime magnam in odit nulla excepturi doloremque!</p>
+    </div>
+  </section>
+
+  <!--CONTACT SECTION-->
+
+  <section  class="section">
+    <div class="w3-container">
+      <div class="w3-card-4">
+
+        <div class="w3-container w3-green">
+          <h2>Contact Us</h2>
+        </div>
+        <form class="w3-container w3-padding-xlarge">
+        <label class="w3-label"> Name</label>
+        <input class="w3-input" type="text">
+        <label class="w3-label">Email</label>
+        <input class="w3-input" type="text">  
+        <label class="w3-label">Message</label> 
+        <textarea class="w3-input" style="resize:none"></textarea><br>
+        <button type="submit" class="w3-button w3-green">Submit</button>
+        <br><br>
+        </form>
+        </div>
+    </div>
+  </section>
+  <!--FOOTER1-->
+  <section id="contact" class="section w3-teal">
+    <div class="w3-container ">
+      <h1 class="w3-text-shadow">Ac webdev</h1>
+      <div class="detail w3-col m3">
+        <ul class="w3-ul w3-hoverable">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div class="detail w3-col m3 w3-right">
+        <ul class="w3-ul w3-hoverable">
+          <li>call:+91 8250648731</li>
+          <li>Email-<a>ayan.ashurali@gmail.com</a></li>
+    
+        </ul>
+      </div>
+    </div>
+  </section>
+<!--FOOTER2-->
+<footer class="w3-blue-gray w3-padding-xlarge w3-center">
+  <p>Ac web design &copy; 2023</p>
+</footer>
+
+<!--MODAL-->
+<div id="start-modal" class="w3-modal">
+  <div class="w3-modal-content">
+    <header class="w3-container w3-red">
+      <span onclick="document.getElementById('start-modal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      <h2>Get Started</h2>
+    </header>
+
+    <div class="w3-container">
+      <form>
+        <div class="w3-section">
+          <label>Username</label>
+          <input class="w3-input w3-borderw3-margin-bottom" placeholder="Enter Your Username" type="text">
+          <label>Email</label>
+          <input class="w3-input w3-borderw3-margin-bottom" placeholder="Enter Your email" type="email">
+          <label>Password</label>
+          <input class="w3-input w3-borderw3-margin-bottom" placeholder="Enter Your password" type="password">
+          <label>Confirm Password</label>
+          <input class="w3-input w3-borderw3-margin-bottom" placeholder="Confirm Your password" type="password">
+          <button class="w3-black w3-btn-block w3-section w3-padding">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!--MODAL 2-->
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./image/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+  <script>
+    function acFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+          if (event.target == modal) {
+              modal.style.display = "none";
+          }
+      }
+      </script>
+</body>
+</html>
